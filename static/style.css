@@ -1,0 +1,201 @@
+body{
+    background-color: black;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    color: white;
+}
+
+.main-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 300;
+    transition: 1s;
+}
+
+a:hover{
+    color: white;
+}
+
+.main-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    
+}
+
+#header-list>li {
+    display: inline;
+    padding: 0 10px;
+
+}
+ul {
+   list-style-type: none;
+   padding: 0;
+   margin-right: 10px;
+
+}
+
+#header-list{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.content{
+    color: white;
+    width: 100%;
+    text-align: center;
+    max-height: 800px;
+    margin-bottom: 100px;
+    
+}
+
+#name{
+    font-weight: 400;
+    font-size: 36px;
+    padding: 20px;
+}
+
+.selfie{
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+
+.text-container{
+    max-width: 500px;
+    justify-content: center;
+    margin:0 auto;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 40px;
+    
+}
+
+.socials{
+    width:100%;
+    display: grid;
+    grid-template-columns: 12px 12px 12px 12px;
+    gap: 60px;
+    justify-content: center;
+    
+}
+
+#footer{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    
+    
+   
+}
+
+/* Projects Page CSS */
+
+#Projects {
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+#Construction {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   color: white;
+}
+
+/* Styling the books section */
+#books {
+    color: white;
+}
+#books-list > li {
+    font-size: 20px
+}
+.books-container {
+    padding:10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 450px;
+}
+#books-list > li::before {
+    content:"•";
+    color: white;
+}
+
+
+/* Style for writing page */
+
+#writing{
+    background-color: black;
+    color: white;
+}
+
+.essay-container {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.essay-title{
+    cursor: pointer;
+}
+
+.rotar  {
+    transform: rotate(90deg);
+}
+
+p{
+    color: gray;
+}
+a > img {
+    transition: 500ms;
+}
+
+a > img:hover{
+    transform:translate(0,-4px);
+}
+
+#toogle{
+    background-color: gray ;
+    width: 50px;
+    height: 20px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;  
+    cursor: pointer; 
+    
+}
+
+#circle{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 3%;
+    cursor: pointer;
+    transition: all 300ms ease-in ;
+
+
+}
+
+
+
+
